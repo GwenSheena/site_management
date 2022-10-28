@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head><meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel = "stylesheet" href="style.css"/>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+      <link rel = "stylesheet" href="style.css"/>
         </head>
     <body>
-        <div class="row">
-              <div class="card">
+      <div class="row">
         <div class="header">
-                <h2>AEPM Site Database</h2></div>
+          <div class="col">
+            <div class="card-body">
+              <img src="images/logo.png" width="100px"; height="100px";/>
+                     AEPM Site Database </div>
               </div>
-            </div>
-       
-        <div class="row">
-            <div class="rightheader">
-              <div class="card">       
-                <center><img src="images/logo.png"/ width="100px"; height="100px";></center>
+          </div>
+         </div>
+
+      <div class="row">
+          <div class="col-4">
+            <ul class="menu">
+            <li class="li"><a href="physical.html"></a>Physical Sites</li><br/>
+            <li class="li"><a href="2G.html"></a>2G</li><br/>
+            <li class="li"><a href="4G.html"></a>4G</li><br/>
+            <li class="li"><a href="5G.html"></a>5G</li><br/>
+            <li class="li"><a href="town.html"></a>Town Level</li><br/>
+            <li class="li"><a href="province.html"></a>Province Level</li><br/>
+            <li class="li"><a href="region.html"></a>Region Level</li><br/>
+            <li class="li"><a href="batch.html"></a>Batch Update/Upload</li>
+            </ul>
+          </div>
+
+          <br/>
+          <div class="col-8">
+            <div class="summary">
+            <img src="images/tower icon.png" width="50px"; height="50px;"/>
+            <div class="badge bg-secondary"><h3>2,022</h3>
+              </div><br/>
+                Min-Wide Physical Site Count
               </div>
-            </div>
+
+              <div class="col">
+                <span class="badge bg-secondary"><h3>1,890</h3></span><br/>
+                <div>Macro</div>
+                <span class="badge bg-secondary"><h3>100</h3></span><br/>
+                <div>Indoor</div>
+                <span class="badge bg-secondary"><h3>32</h3></span><br/>
+                <div>Small Cells</div>
+
+              <div class="col">
+              <div class="badge bg-secondary"><h3>1,078</h3>
+                <div> Network-defined</div> <br/>
+          </div><br/></div>
+            <div class="col">
+          <div class="badge bg-secondary"><h3>543</h3>
+            <div> TRFsed</div> <br/>
+          </div><br/></div>
+          
+            <div class="col">
+          <div class="badge bg-secondary"><h3>401</h3>
+          <div> CRFSed</div> <br/></div>
+        </div>
+        </div>
+           </div>
+
+     
+
         </div>
 
+        <div class="row justify-content-end">
+          <div class="col-8">
+            One of two columns
+          </div>
+          <div class="col-8">
+            One of two columns
+          </div>
         </body>
+
+        <!-- Script Files -->>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"> </script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"> </script>
 </html>
