@@ -28,6 +28,7 @@ position: fixed;
     border: 2px solid rgb(122, 116, 116);
     text-align: center;
     border-bottom: 2px solid rgb(122, 116, 116);
+    background-color: whitesmoke;
 }
 
 .summary {
