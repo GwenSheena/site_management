@@ -14,7 +14,6 @@ background: #f1f1f1;
             }
 .menu {
 font-size: 20px;
-text-align: center;
 color: white;
 list-style-type: none;
 margin: 0;
@@ -23,22 +22,35 @@ width: 25%;
 background: rgb(33, 88, 156);
 height: 100%; 
 position: fixed;
-overflow: auto; 
+
           }
-.li {
+.mynav {
     border: 2px solid rgb(122, 116, 116);
     text-align: center;
     border-bottom: 2px solid rgb(122, 116, 116);
 }
 
-.summary{
+.summary {
     padding:2rem;
     border: none;
     font-size: 15px;
 }
 
-            
+.sitetype{
+    float: right;
+    border: none;
+}
 
 
+.header2 {
+    font-size: 40px;
+    text-align: left;
+    background: rgb(2, 17, 191);
+    color: whitesmoke;
+            }      
 
-             
+.table1 {
+    font-size: 10px;
+    text-align: center;
+    padding-left: 0.5em;
+}
